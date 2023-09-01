@@ -1,0 +1,7 @@
+.App-title {
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  justify-content: left;
+  margin-top: 50px;
+}

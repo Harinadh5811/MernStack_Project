@@ -1,0 +1,79 @@
+table {
+  border-collapse: collapse;
+  margin-top: 20px;
+  width: 100%;
+}
+
+th,
+td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+th {
+  background-color: #4CAF50;
+  color: white;
+}
+
+h2 {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  text-align: center;
+}
+select {
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  margin-bottom: 10px;
+}
+
+select:focus {
+  outline: none;
+  box-shadow: 0 0 2px 1px #0074D9;
+}
+
+option {
+  font-size: 16px;
+}
+.technician-dropdowns {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.technician-dropdown {
+  flex-basis: 48%;
+}
+
+.technician-dropdown label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.technician-dropdown select {
+  width: 50%;
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  font-size: 16px;
+}
+button {
+  background-color: #4caf50;
+  border: none;
+  color: #fff;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #3e8e41;
+}
